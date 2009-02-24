@@ -10,4 +10,5 @@ install:
 
 update:
 	${DPKG} -b pixpub-allinone
+	${DPKG} -b pixpub-basicSoftware
 	${DPKG} -b pixpub-shells

@@ -1,8 +1,8 @@
 Package: pixpub-allinone
-Version: 1.1
+Version: 1.3
 Section: main
 Priority: optional
 Architecture: all
-Depends: pixpub-shells
+Depends: pixpub-basicSoftware
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: All-in-one meta package
