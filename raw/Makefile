@@ -9,4 +9,4 @@ install:
 	${MV} *.deb ../binary
 
 update:
-	${DPKG} -b allinone
+	${DPKG} -b pixpub-allinone
