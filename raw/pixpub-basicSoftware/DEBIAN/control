@@ -1,8 +1,8 @@
 Package: pixpub-basicSoftware
-Version: 1.5
+Version: 1.6
 Section: main
 Priority: optional
 Architecture: all
-Depends: curl, hobbit-client, iperf, less, lftp, lsof, most, mtr-tiny, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
+Depends: curl, hobbit-client, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: basicSoftware meta package
