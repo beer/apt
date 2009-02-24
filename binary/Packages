@@ -1,15 +1,3 @@
-Package: allinone
-Version: 1.0
-Architecture: all
-Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Depends: 
-Filename: binary/allinone.deb
-Size: 586
-MD5sum: e32da56c89aaf53a984b18d517dd60e6
-Section: main
-Priority: optional
-Description: All-in-one meta package
-
 Package: pixpub-allinone
 Version: 1.8
 Architecture: all
@@ -17,19 +5,19 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: apache2-mpm-worker, cakephp, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd, spread
 Filename: binary/pixpub-allinone.deb
 Size: 748
-MD5sum: c3e42edef4fa64f719eb00c158e017f7
+MD5sum: f7b56d3c48c8fd0624336712cad0024b
 Section: main
 Priority: optional
 Description: All-in-one meta package
 
 Package: pixpub-basicSoftware
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Depends: curl, hobbit-client, iperf, less, lftp, lsof, most, mtr-tiny, nmap, pixpub-shells, rsync, screen, sudo, telnet, traceroute, vim-nox, w3m, wget
+Depends: curl, hobbit-client, iperf, less, lftp, lsof, most, mtr-tiny, nmap, pixpub-shells, rsync, screen, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
 Filename: binary/pixpub-basicSoftware.deb
 Size: 690
-MD5sum: 964b8208fb8f57745af4fc8fc86d8be7
+MD5sum: 429d06def5f5ff2826b4000b850e723d
 Section: main
 Priority: optional
 Description: basicSoftware meta package
@@ -41,7 +29,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: perl, php5-cgi, php5-cli, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, python, ruby, sun-java6-jdk
 Filename: binary/pixpub-languageMeta.deb
 Size: 698
-MD5sum: 6d7ff6bb8c6ba406f4fd5f0557b0a3d7
+MD5sum: 518af9066ca4a222792a5b88f3cc0b23
 Section: main
 Priority: optional
 Description: Language meta package
@@ -65,7 +53,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: git-core, mercurial, subversion
 Filename: binary/pixpub-vcsMeta.deb
 Size: 616
-MD5sum: c61910f8476cb4abfcc0d78bae0ac090
+MD5sum: 9ce3cb3729af6886ca32c01e012622f4
 Section: main
 Priority: optional
 Description: Version control system meta package
