@@ -1,8 +1,8 @@
 Package: pixpub-allinone
-Version: 1.3
+Version: 1.4
 Section: main
 Priority: optional
 Architecture: all
-Depends: pixpub-basicSoftware, pixpub-vcs
+Depends: apache2-mpm-worker, libapache2-mod-fastcgi, php5-cgi, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: All-in-one meta package

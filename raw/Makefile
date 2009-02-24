@@ -11,5 +11,6 @@ install:
 update:
 	${DPKG} -b pixpub-allinone
 	${DPKG} -b pixpub-basicSoftware
+	${DPKG} -b pixpub-languageMeta
 	${DPKG} -b pixpub-shells
 	${DPKG} -b pixpub-vcs

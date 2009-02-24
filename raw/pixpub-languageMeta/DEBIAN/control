@@ -1,0 +1,8 @@
+Package: pixpub-languageMeta
+Version: 1.0
+Section: main
+Priority: optional
+Architecture: all
+Depends: perl, php5-cli, python, ruby, sun-java6-jdk
+Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
+Description: Language meta package
