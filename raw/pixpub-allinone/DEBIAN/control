@@ -1,8 +1,8 @@
 Package: pixpub-allinone
-Version: 1.5
+Version: 1.6
 Section: main
 Priority: optional
 Architecture: all
-Depends: apache2-mpm-worker, cakephp, libapache2-mod-fastcgi, libcatalyst-perl, libwww-mechanize-perl, memcached, mrtg, php5-cgi, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd
+Depends: apache2-mpm-worker, cakephp, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, php5-cgi, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: All-in-one meta package
