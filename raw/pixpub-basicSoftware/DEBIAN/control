@@ -5,4 +5,4 @@ Priority: optional
 Architecture: all
 Depends: curl, hobbit-client, iperf, lftp, lsof, most, mtr-tiny, nmap, pixpub-shells, rsync, screen, telnet, traceroute, vim-nox, w3m, wget
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Description: All-in-one meta package
+Description: basicSoftware meta package
