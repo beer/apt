@@ -10,5 +10,7 @@ CURDIR?=	${.CURDIR}
 all: update
 
 update:
-	${SCANPKG} binary /dev/null | ${GZIP} -9c > binary/Packages.gz
-	${SCANSRC} source /dev/null | ${GZIP} -9c > source/Sources.gz
+	${SCANPKG} binary /dev/null > binary/Packages
+	${GZIP} -9c binary/Packages > binary/Packages.gz
+	${SCANSRC} source /dev/null > source/Sources
+	${GZIP} -9c source/Sources > source/Sources.gz
