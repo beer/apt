@@ -1,8 +1,8 @@
 Package: pixpub-languageMeta
-Version: 1.0
+Version: 1.1
 Section: main
 Priority: optional
 Architecture: all
-Depends: perl, php5-cli, python, ruby, sun-java6-jdk
+Depends: perl, php5-cgi, php5-cli, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, python, ruby, sun-java6-jdk
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: Language meta package
