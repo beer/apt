@@ -5,19 +5,19 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: apache2-mpm-worker, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd, spread
 Filename: binary/pixpub-allinone.deb
 Size: 742
-MD5sum: 3b9f119085123e3cde93c2273461dad4
+MD5sum: 8b641d3d540f40fba60174a5748a245d
 Section: main
 Priority: optional
 Description: All-in-one meta package
 
 Package: pixpub-basicSoftware
-Version: 1.9
+Version: 1.10
 Architecture: all
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Depends: apache2-utils, curl, dnsutils, hobbit-client, httperf, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sharutils, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
+Depends: apache2-utils, curl, dnsutils, hobbit-client, httperf, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sharutils, sudo, sysstat, tcpdump, telnet, traceroute, vim-nox, w3m, wget
 Filename: binary/pixpub-basicSoftware.deb
-Size: 728
-MD5sum: 7a0c9dd2d50c49a5622f12c19fee7a0b
+Size: 730
+MD5sum: 7d16546b0dd72039662271e9a96e6375
 Section: main
 Priority: optional
 Description: basicSoftware meta package
@@ -29,7 +29,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: perl, php5-cgi, php5-cli, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, python, ruby, sun-java6-jdk
 Filename: binary/pixpub-languageMeta.deb
 Size: 698
-MD5sum: bd3ec46f3d123377d5bf4c56fe145594
+MD5sum: 664bd8af9b06d1372700757b3781eac9
 Section: main
 Priority: optional
 Description: Language meta package
@@ -53,7 +53,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: git-core, mercurial, subversion
 Filename: binary/pixpub-vcsMeta.deb
 Size: 616
-MD5sum: 084cf588f2ffe253862023c2359a15e5
+MD5sum: 15f4e1686b62448833fd6cbfc241a76f
 Section: main
 Priority: optional
 Description: Version control system meta package
