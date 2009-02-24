@@ -1,13 +1,17 @@
 #
-SCANPKG?=	/usr/bin/dpkg-scanpackages
-SCANSRC?=	/usr/bin/dpkg-scansources
-GZIP?=		/bin/gzip
+S3CMD?=		s3cmd
+SCANPKG?=	dpkg-scanpackages
+SCANSRC?=	dpkg-scansources
+GZIP?=		gzip
 
 # for BSD make compatible
 CURDIR?=	${.CURDIR}
 
 #
 all: update
+
+s3:
+	${S3CMD} sync --exclude=".git/*" . s3://s3-pixpub.pixnet.tw/
 
 update:
 	${SCANPKG} binary /dev/null > binary/Packages
