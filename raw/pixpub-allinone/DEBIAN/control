@@ -1,8 +1,8 @@
 Package: pixpub-allinone
-Version: 1.8
+Version: 1.9
 Section: main
 Priority: optional
 Architecture: all
-Depends: apache2-mpm-worker, cakephp, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd, spread
+Depends: apache2-mpm-worker, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd, spread
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: All-in-one meta package
