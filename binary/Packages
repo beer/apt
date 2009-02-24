@@ -5,7 +5,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: apache2-mpm-worker, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libjson-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-mytop, pixpub-vcs, python-django, rrdtool, s3cmd, spread
 Filename: binary/pixpub-allinone.deb
 Size: 750
-MD5sum: 2830d630c63b660e26b2c4da801ab752
+MD5sum: 8225dfa364f62bb342506e2ea154e508
 Section: main
 Priority: optional
 Description: All-in-one meta package
@@ -17,7 +17,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: apache2-utils, curl, dnsutils, hobbit-client, httperf, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sharutils, sudo, sysstat, tcpdump, telnet, traceroute, vim-nox, w3m, wget, xfsprogs
 Filename: binary/pixpub-basicSoftware.deb
 Size: 738
-MD5sum: 5dd5bda0a438f32c3e846dd6ee1d0a28
+MD5sum: 5fd8d99b30327d6745865554ae4db8e7
 Section: main
 Priority: optional
 Description: basicSoftware meta package
@@ -29,19 +29,19 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: perl, php5-cgi, php5-cli, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, python, ruby, sun-java6-jdk
 Filename: binary/pixpub-languageMeta.deb
 Size: 698
-MD5sum: 078863a2ec1610a9ec32b69304b3eb4d
+MD5sum: 45e10b8920772f98d7dc583fc94da5b8
 Section: main
 Priority: optional
 Description: Language meta package
 
 Package: pixpub-mytop
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Depends: libdbd-mysql-perl, libdbi-perl
+Depends: libdbd-mysql-perl, libdbi-perl, libterm-readkey-perl
 Filename: binary/pixpub-mytop.deb
-Size: 17396
-MD5sum: d831fe40a37208adc1665bb502cf4497
+Size: 17410
+MD5sum: 09be6d70b53d30b11727be4c6515619f
 Section: main
 Priority: optional
 Description: modified mytop
@@ -66,7 +66,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: git-core, mercurial, subversion
 Filename: binary/pixpub-vcsMeta.deb
 Size: 616
-MD5sum: 458df6dbea6196e0f2eeee52d77be16a
+MD5sum: 9ea76cf38efb0ef7d48edc914b04c110
 Section: main
 Priority: optional
 Description: Version control system meta package

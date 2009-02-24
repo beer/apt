@@ -1,9 +1,9 @@
 Package: pixpub-mytop
-Version: 1.2
+Version: 1.3
 Section: main
 Priority: optional
 Architecture: all
-Depends: libdbd-mysql-perl, libdbi-perl
+Depends: libdbd-mysql-perl, libdbi-perl, libterm-readkey-perl
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: modified mytop
  With replication patch and SHOW GLOBAL STATUS (for 5.0.77+) fix.
