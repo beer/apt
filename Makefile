@@ -11,7 +11,8 @@ CURDIR?=	${.CURDIR}
 all: update
 
 deploy:
-	${S3CMD} sync -P --exclude=".git/*" . s3://s3-pixpub.pixnet.tw/
+	${S3CMD} sync -P --exclude=".git/*" ./binary/ s3://s3-pixpub.pixnet.tw/binary/
+	${S3CMD} sync -P --exclude=".git/*" ./source/ s3://s3-pixpub.pixnet.tw/source/
 
 update:
 	${SCANPKG} binary /dev/null > binary/Packages
