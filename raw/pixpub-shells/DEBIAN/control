@@ -1,0 +1,8 @@
+Package: pixpub-shells
+Version: 1.0
+Section: main
+Priority: optional
+Architecture: all
+Depends: pdksh, tcsh, zsh
+Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
+Description: Shell meta package
