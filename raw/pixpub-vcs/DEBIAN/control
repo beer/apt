@@ -1,0 +1,8 @@
+Package: pixpub-vcs
+Version: 1.0
+Section: main
+Priority: optional
+Architecture: all
+Depends: git-core, mercurial, subversion
+Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
+Description: Version control system meta package

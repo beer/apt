@@ -12,3 +12,4 @@ update:
 	${DPKG} -b pixpub-allinone
 	${DPKG} -b pixpub-basicSoftware
 	${DPKG} -b pixpub-shells
+	${DPKG} -b pixpub-vcs
