@@ -1,0 +1,9 @@
+Package: pixpub-mytop
+Version: 1.0
+Section: main
+Priority: optional
+Architecture: all
+Depends: libdbd-mysql
+Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
+Description: modified mytop
+ With replication patch and SHOW GLOBAL STATUS (for 5.0.77+) fix.
