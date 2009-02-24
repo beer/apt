@@ -5,19 +5,19 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: apache2-mpm-worker, ffmpeg, gearman-server, libapache2-mod-fastcgi, libcatalyst-perl, libgearman-client-async-perl, libgearman-client-perl, libwww-mechanize-perl, memcached, mrtg, pixpub-basicSoftware, pixpub-languageMeta, pixpub-vcs, python-django, rrdtool, s3cmd, spread
 Filename: binary/pixpub-allinone.deb
 Size: 742
-MD5sum: ed09cbe58df745c90e2195dcf78810aa
+MD5sum: 6df2fada8d9f8febf708ce50c5d61c5b
 Section: main
 Priority: optional
 Description: All-in-one meta package
 
 Package: pixpub-basicSoftware
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
-Depends: curl, dnsutils, hobbit-client, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
+Depends: apache2-utils, curl, dnsutils, hobbit-client, httperf, iperf, less, lftp, lsof, most, mtr-tiny, mutt, nmap, pixpub-shells, rcconf, rsync, screen, sendmail, sudo, tcpdump, telnet, traceroute, vim-nox, w3m, wget
 Filename: binary/pixpub-basicSoftware.deb
-Size: 712
-MD5sum: d91e265532cfcb9de5400601e0ad0f9f
+Size: 724
+MD5sum: 301c4230dcf1c749a1addbeb63d63510
 Section: main
 Priority: optional
 Description: basicSoftware meta package
@@ -29,7 +29,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: perl, php5-cgi, php5-cli, php5-curl, php5-gd, php5-geoip, php5-gmp, php5-imagick, php5-imap, php5-ldap, php5-mcrypt, php5-memcache, php5-mhash, php5-mysql, php5-suhosin, php5-xmlrpc, php-apc, php-pear, python, ruby, sun-java6-jdk
 Filename: binary/pixpub-languageMeta.deb
 Size: 698
-MD5sum: d8405d3952269b32f40172a16a1809d4
+MD5sum: 1d83d7419f247cfdf45aea6da96b7aa2
 Section: main
 Priority: optional
 Description: Language meta package
@@ -53,7 +53,7 @@ Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Depends: git-core, mercurial, subversion
 Filename: binary/pixpub-vcsMeta.deb
 Size: 616
-MD5sum: deee7ba9335ab8e46244995472470b64
+MD5sum: db6043cc65fdda2318ce81850e49e7fb
 Section: main
 Priority: optional
 Description: Version control system meta package
