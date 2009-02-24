@@ -1,0 +1,8 @@
+Package: allinone
+Version: 1.0
+Section: main
+Priority: optional
+Architecture: all
+Depends: 
+Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
+Description: All-in-one meta package
