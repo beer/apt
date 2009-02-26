@@ -1,8 +1,8 @@
 Package: pixpub-ec2startup
-Version: 1.2
+Version: 1.3
 Section: main
 Priority: optional
 Architecture: all
-Depends: libjson-perl, libnet-amazon-s3-perl, libwww-perl, python-boto
+Depends: libjson-perl, libnet-amazon-s3-perl, libwww-perl, python-boto, python-simplejson
 Maintainer: Gea-Suan Lin <gslin@pixnet.tw>
 Description: EC2 startup script
